@@ -5,7 +5,7 @@ describe('The greet function' , function(){
     });
 
     it('should should return "Hello, Lindani", when I greet Lindani', function(){
-        assert.equal('Hello, Lindani', greet('Lindani'));
+        assert.equal('Hello, Lindan', greet('Lindani'));
     });
 
     it('should should return "Hello", when no name is entered', function(){
