@@ -30,5 +30,5 @@ describe('The regCheck function', function(){
 
      it('should return regNo.endsWith(regEnd)', function(){
         assert.equal(regCheck('FGT 123 MM', 'MP'), false);
-    }),
+    })
 })
