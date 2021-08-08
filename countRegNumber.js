@@ -1,3 +1,3 @@
-function countRegNumber(regNo) {
-    return regNo.split(",").length;
+function countRegNumber(registrationNumber) {
+    return registrationNumber.split(",").length;
   }
