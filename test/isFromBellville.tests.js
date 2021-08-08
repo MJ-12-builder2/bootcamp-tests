@@ -1,10 +1,10 @@
-describe('isFromBellville function' , function(){
+describe('The isFromBellville function' , function(){
+    it('should return "registrationNumber" that startsWith CY' , function(){
 
-    it('should return "itemName", that starts with CY', function(){
         assert.equal(isFromBellville('CY 123'), true);
-    }),
+        assert.equal(isFromBellville('CJ 123'), false);
+
     
-    it('should return "itemName", that starts with CY', function(){
-    assert.equal(isFromBellville('CJ 123'), false);
-    })
-})
+    });
+
+});
