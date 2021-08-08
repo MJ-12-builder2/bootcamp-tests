@@ -1,4 +1,4 @@
-function isFromBellive(registrationNumber) {
-    return registrationNumber.startsWith('CY');
+function isFromBellive(regNo) {
+    return regNo.startsWith('CY');
 }
  
