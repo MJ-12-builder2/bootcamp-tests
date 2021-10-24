@@ -11,4 +11,3 @@ function countAllFromTown(regNum, town){
     }
 }
   return itemName.startsWith('CA');
-}

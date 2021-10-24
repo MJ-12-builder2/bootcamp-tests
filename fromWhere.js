@@ -1,3 +1,14 @@
-function isFromGauteng(itemName) {
-  return itemName.endsWith('GP');
+function fromWhere(regNumber) {
+  
+  if ((regNumber).startsWith('CY')){
+    return 'Bellville';
+  } else if ((regNumber).startsWith('CJ')) {
+    return 'Paarl';
+  } else if ((regNumber).startsWith('CA')) {
+    return 'Cape Town';
+  } else if ((regNumber).startsWith('CC')) {
+    return 'Some other place!';
+  }
 }
+
+console.log(fromWhere('CC'));
